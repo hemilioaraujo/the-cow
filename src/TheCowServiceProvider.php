@@ -18,7 +18,7 @@ class TheCowServiceProvider extends PackageServiceProvider
         $package
             ->name('the-cow')
             ->hasRoute('web')
-            ->hasViews('moo')
+            ->hasViews()
             ->hasCommand(TheCowCommand::class);
     }
 }
