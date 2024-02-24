@@ -3,5 +3,5 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/moo', function () {
-    return view('the-cow:moo');
+    return view('the-cow::moo');
 });
